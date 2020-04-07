@@ -2,6 +2,10 @@ require 'nokogiri'
 require 'pry'
 
 
+require 'nokogiri'
+require 'pry'
+
+
 def create_project_hash	def create_project_hash
   # write your code here	  html = File.read('fixtures/kickstarter.html')
 end 	  kickstarter = Nokogiri::HTML(html)
